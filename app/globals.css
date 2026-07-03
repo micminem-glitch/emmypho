@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  /* Emmy's Editorial Color Palette */
+  --color-ink: #1c1a17;
+  --color-paper: #f3eee4;
+  --color-amber: #c9955a;
+  --color-rust: #8b4a3c;
+  --color-stone: #6b655c;
+  --color-line: rgba(28, 26, 23, 0.14);
+  --color-line-light: rgba(243, 238, 228, 0.18);
+
+  /* Typography Mapping */
+  --font-serif: var(--font-fraunces), serif;
+  --font-sans: var(--font-inter), sans-serif;
+  --font-mono: var(--font-ibm-plex-mono), monospace;
+}
