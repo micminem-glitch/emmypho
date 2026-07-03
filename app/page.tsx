@@ -29,13 +29,43 @@ export default function Home() {
     alert("Thank you! Your booking request has been received.");
   };
 
-  const frames = [
-    { id: "24A", tag: "PORTRAIT · LAGOS", src: "https://picsum.photos/seed/emy01/540/680", alt: "Portrait session, studio light" },
-    { id: "25", tag: "WEDDING · GOLDEN HR", src: "https://picsum.photos/seed/emy02/540/680", alt: "Wedding first look, golden hour" },
-    { id: "26", tag: "EDITORIAL · STUDIO", src: "https://picsum.photos/seed/emy03/540/680", alt: "Editorial brand shoot" },
-    { id: "27", tag: "COUPLE · NATURAL LIGHT", src: "https://picsum.photos/seed/emy04/540/680", alt: "Candid couple session" },
-    { id: "28", tag: "STREET · 35MM", src: "https://picsum.photos/seed/emy05/540/680", alt: "Street portrait" },
-    { id: "29", tag: "HEADSHOT · GREY BACKDROP", src: "https://picsum.photos/seed/emy06/540/680", alt: "Studio headshot" },
+ const frames = [
+    { 
+      id: "24A", 
+      tag: "PORTRAIT · LAGOS", 
+      src: "/frame1.jpg", // 👈 Points directly to public/frame1.jpg
+      alt: "Your custom description here" 
+    },
+    { 
+      id: "25", 
+      tag: "WEDDING · GOLDEN HR", 
+      src: "/frame2.jpg", 
+      alt: "Your custom description here" 
+    },
+    { 
+      id: "26", 
+      tag: "WEDDING · STUDIO", 
+      src: "/frame3.jpg", 
+      alt: "Your custom description here" 
+    },
+    { 
+      id: "27", 
+      tag: "SINGLE · NATURAL LIGHT", 
+      src: "/frame4.jpg", 
+      alt: "Your custom description here" 
+    },
+    { 
+      id: "28", 
+      tag: "SINGLE  · STUDIO", 
+      src: "/frame5.jpg", 
+      alt: "Your custom description here" 
+    },
+    { 
+      id: "29", 
+      tag: "POTRAIT · STUDIO", 
+      src: "/frame6.jpg", 
+      alt: "Your custom description here" 
+    },
   ];
 
   return (
@@ -102,7 +132,7 @@ export default function Home() {
           </div>
           <div className="relative overflow-hidden bg-black min-h-[40vh] max-[880px]:h-[56vh]">
             <img 
-              src="https://picsum.photos/seed/emyhero/1100/1400" 
+              src="hero-shot.jpg" 
               alt="Portrait photograph by Emmy Photography"
               className="w-full h-full object-cover grayscale contrast-[1.05] brightness-[0.95]"
             />
@@ -168,7 +198,7 @@ export default function Home() {
           <div className="max-w-[1240px] mx-auto px-8 max-[520px]:px-5 grid grid-cols-[0.85fr_1.15fr] max-[880px]:grid-cols-1 gap-[72px] max-[880px]:gap-14 items-center">
             <div className="relative">
               <img 
-                src="https://picsum.photos/seed/emystudio/700/875" 
+                src="/GGB.jpg" 
                 alt="Emmy behind Emmy Photography"
                 className="w-full aspect-[4/5] object-cover grayscale contrast-[1.05]"
               />
